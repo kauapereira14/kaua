@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+header {
+    color: #060768;
+    background-color: #fff;
+    margin: -21px -8px;
+
+    height: 10vh;
+    padding-top: 3vh;
+    padding-left: 20vw;
+
+    display: flex;
+    overflow: hidden ;
+
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    list-style: none;
+    margin-top: 0px;
+
+    position: relative;
+    left: 30vw;
+}
+  
+nav li {
+  display: inline;
+  margin: 0vh 0.7rem;
+}
+  
+nav a {
+  text-decoration: none;
+  color: #060768;
+
+  font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+footer nav a {
+    text-decoration: none;
+    color: #c20303;
+  
+    font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 1.2rem;
+}
+
+nav a:hover {
+    background-color: #060768;
+    color: #fff;
+    font-weight: 300;
+
+    padding: 1vh 1vw 0.6vw 1vw;
+}
+  
+nav a:active {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#text-home-container {
+    margin-top: 25vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#proverb {
+    background-color: #060768;
+    color: #fff;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+    min-width: 15%;
+    max-width: 20%;
+    font-weight: 500;
+
+    overflow: hidden;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+#icon-nav-current {
+    background-color: #060768;
+    color: #fff;
+    font-weight: 200;
+
+    padding: 1vh 1vw 0.6vw 1vw;
+}
+
+#text-home {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+p {
+    text-align: center; 
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-icon {
+        display: inline;
+        float: right;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    #menu-h {
+        display: none;
+    }
+    .menu-show {
+        display: block !important;
+    }
+    .menu-hide {
+        display: none !important;
+    }
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #060768;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+  }
+  
